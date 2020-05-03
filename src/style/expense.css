@@ -1,0 +1,332 @@
+body {
+  background-color:  #fff7e6;
+  font-family: "Comic Sans MS", cursive, sans-serif !important;
+}
+
+button {
+  border-radius:12px !important;
+  background-color: #4CAF50;
+  color: white;
+}
+
+h3 {
+  text-align: left;
+
+}
+
+span {
+  padding-left: 10px;
+}
+
+.light-theme-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.dark-theme-button {
+  background-color: orange;
+  color: white;
+}
+
+.colorful-theme-button {
+  background-color: #cccc00;
+  color: black;
+}
+
+.light-theme-font {
+  color: orange;
+}
+
+.dark-theme-font {
+  color: orange;
+}
+
+.colorful-theme-font {
+  color: black;
+}
+
+.app-title {
+  text-align: center;
+  color: Green;
+}
+
+.login {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.logout {
+  text-align: right;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.logout-button {
+  float: right;
+  font-size: 100%;
+}
+
+.logout-display {
+  flex: top;
+}
+
+.user-name {
+  font-weight: bold;
+  color: Orange;
+}
+
+.to-add {
+  width: 200px;
+}
+
+.themes {
+  text-align: right;
+}
+
+.themes-select {
+  background-color: #ffcc66;
+  padding: 16px;
+  font-size: 16px;
+  min-width: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-text {
+  text-align: center;
+}
+
+.expense-content {
+  padding-left: 20px
+}
+.expense-done-header {
+  padding-left: 40px
+}
+
+.expense-row {
+  list-style: none;
+}
+
+.expense-done {
+  min-width: 100px;
+}
+
+.expense-name {
+  min-width: 200px;
+  width: 200px;
+  padding-right: 20px;
+}
+
+.expense-name-complete {
+  text-decoration: line-through;
+  min-width: 200px;
+  width: 200px;
+  padding-right: 20px;
+}
+
+.expense-done-header {
+  min-width: 100px;
+  display: inline-block;
+}
+
+.expense-name-header {
+  min-width: 100px;
+  display: inline-block;
+  text-align: center;
+}
+
+.expense-delete-header {
+  min-width: 100px;
+  display: inline-block;
+}
+
+.asc-sort-icon {
+  width: 15px;
+  height: 20px;
+}
+
+.desc-sort-icon {
+  width: 15px;
+  height: 20px;
+}
+
+.delete-expense {
+  background-color: red;
+}
+
+.error {
+  text-align: center;
+  color: Red;
+}
+
+.edit-error {
+  color: Red;
+  padding-left: 120px;
+}
+
+.add-expense-form {
+  width: 240px;
+  display: inline-block;
+  text-align: left;
+}
+
+.expense-name-link {
+  width: 200px;
+  cursor: pointer;
+  font-size: 100%;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: Blue;
+  text-align: left;
+  display: inline;
+}
+
+.expense-header-row {
+  font-weight: bold;
+  padding-left: 32px;
+}
+
+.expense-category-header {
+  width: 20%;;
+  display: inline-block;
+}
+
+.expense-name-header {
+  width: 25%;;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+.expense-amount-header {
+  width: 15%;;
+  display: inline-block;
+}
+
+.expense-date-header {
+  width: 15%;;
+  display: inline-block;
+}
+
+.view-expense-row:hover {
+  background-color: LightGreen;
+}
+
+.view-expense-list {
+  list-style: none;
+}
+.view-expense-category {
+  width: 20%;;
+  display: inline-block;
+}
+
+.view-expense-name {
+  width: 25%;;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+.view-expense-amount {
+  width: 15%;;
+  display: inline-block;
+}
+
+.view-expense-date {
+  width: 15%;;
+  display: inline-block;
+}
+
+.view-expense-edit {
+  width: 5%;;
+  display: inline-block;
+}
+
+.view-expense-delete {
+  width: 5%;;
+  display: inline-block;
+}
+
+.delete-button {
+  background-color: #DC143C;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  background-color: Orange;
+}
+
+.nav > li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.nav > li.action:hover {
+  background-color: aqua;
+}
+
+.nav > li.action {
+  margin-left: auto;
+}
+
+.expense-list {
+  padding-left: 10px;
+  text-align: center;
+  align: center;
+  width: 85%;
+  word-wrap: break-word;
+}
+
+.search-expense{
+  text-align: center;
+}
+
+.controls {
+  display: inline;
+}
+
+.sort {
+  text-align: left;
+  display: inline-block;
+}
+
+.remove-all {
+  float: right;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.no-expenses {
+  text-align: center;
+}
+
+.summary-total-expense{
+  text-align: center;
+}
+
+.summary-max-expense{
+  text-align: center;
+}
+
+.category-distribution-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.category-distribution-list {
+  list-style: none;
+  display: inline-block;
+}
+
+.category-distribution-pie {
+  height: 80%;
+  width: 80%;
+  text-align: center;
+  display: inline-block;
+}
