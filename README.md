@@ -1,6 +1,6 @@
 
 ## Student Expense Management
-An expense management application built using React for University students to track their expenses. The application  allows students to add, edit and delete expenses. Expenses can be sorted by various attributes. The application also provides a summary of the expenditures grouped by category.
+This is an expense management application built using React for University students to track their expenses. The application  allows students to add, edit and delete expenses. Expenses can be sorted by various attributes. The application also provides a summary of the expenditures grouped by category.
 
 ### Setup locally
 
