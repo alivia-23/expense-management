@@ -5,8 +5,8 @@ import { ThemeContext }  from '../ThemeContext';
 
 const Controls = ({user, dispatch, onError}) => {
 
-  const[sortBy, setSortBy] = useState("amount");
-  const[order, setOrder] = useState("asc");
+  const[sortBy, setSortBy] = useState("-1");
+  const[order, setOrder] = useState("-1");
   const { theme, themes } = useContext(ThemeContext);
   const buttonStyle = themes[theme]['buttonStyle'];
 
@@ -36,6 +36,7 @@ const Controls = ({user, dispatch, onError}) => {
           <span>
           Sort By:
             <select value={sortBy} onChange={ (e) => setSortBy(e.target.value)}>
+              <option value="-1">Select</option>
               <option value="amount">Amount</option>
               <option value="name">Name</option>
               <option value="category">Category</option>
@@ -46,6 +47,7 @@ const Controls = ({user, dispatch, onError}) => {
           <span>
           Order:
             <select value={order} onChange={ (e) => setOrder(e.target.value)}>
+              <option value="-1">Select</option>
               <option value="asc">Asc</option>
               <option value="desc">Desc</option>
             </select>

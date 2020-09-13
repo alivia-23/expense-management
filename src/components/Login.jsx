@@ -11,8 +11,7 @@ const Login = ({ onLogin }) => {
   const [error, setError] = useState('');
 
   const performLogin = () => {
-    if(!username || username.trim().length === 0
-          || !password || password.trim().length === 0) {
+    if(!username || username.trim().length === 0) {
       setError(statusMessages['LOGIN_EMPTY']);
       return;
     }
@@ -34,7 +33,7 @@ const Login = ({ onLogin }) => {
       <p className="error">{error}</p>
       <div>
       <label>Username : </label><input onChange={ (e) => setUsername(e.target.value) }/> <br></br>
-      <label>Password : </label><input type="password" onChange={ (e) => setPassword(e.target.value) }/>
+      {/*<label>Password : </label><input type="password" onChange={ (e) => setPassword(e.target.value) }/>*/}
         <div>
         { isLoading ?
             <img alt="spinner" src={spinner}/> :
