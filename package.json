@@ -13,11 +13,13 @@
     "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "uuid": "^7.0.3"
+    "uuid": "^7.0.3",
+    "pm2": "^4.2.0"
   },
   "proxy": "http://localhost:5000",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node ./node_modules/pm2/bin/pm2 start server/index.js --name expense-management",
+    "stop": "node ./node_modules/pm2/bin/pm2 stop expense-management",
     "server": "node server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
